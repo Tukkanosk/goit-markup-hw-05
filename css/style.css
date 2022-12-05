@@ -98,26 +98,8 @@ svg {
 .k-subpages--active {
   position: relative;
 }
-.a-subpages--active::after {
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background: #2196f3;
-  border-radius: 2px;
-  content: "";
-  bottom: -33px;
-  left: 0px;
-}
-.p-subpages--active::after {
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background: #2196f3;
-  border-radius: 2px;
-  content: "";
-  bottom: -33px;
-  left: 0px;
-}
+.a-subpages--active::after,
+.p-subpages--active::after,
 .k-subpages--active::after {
   position: absolute;
   width: 100%;
