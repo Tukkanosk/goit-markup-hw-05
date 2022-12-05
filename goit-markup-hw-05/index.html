@@ -36,7 +36,7 @@
     <main>
       <section class="big-box">
         <h1 class="first-header">EFEKTYWNE ROZWIĄZANIA </br> DLA WASZEGO BIZNESU</h1>
-        <button type="button" class="order-button"><p>Zamów usługe</p></button>
+        <button type="button" class="order-button" data-modal-open><p>Zamów usługe</p></button>
       </section>
       <div class="big-wrap">
       <div class="container">
@@ -325,5 +325,10 @@
       </span></div>
       </div></div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-btn" type="button" data-modal-close>X</button></div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
