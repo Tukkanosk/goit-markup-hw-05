@@ -25,7 +25,7 @@ svg {
       #2f303a66 50%,
       #2f303a66 100%
     ),
-    url("/images/bckgrnd.jpg");
+    url("../images/bckgrnd.jpg");
   /*^Na githubie nie widać tego zdjęcia :(*/
   background-size: cover;
   background-position: center;
