@@ -25,7 +25,7 @@ svg {
       #2f303a66 50%,
       #2f303a66 100%
     ),
-    url("/images/bckgrnd.jpg");
+    url("../images/bckgrnd.jpg");
   /*^Na githubie nie widać tego zdjęcia :(*/
   background-size: cover;
   background-position: center;
@@ -92,6 +92,23 @@ svg {
 .subpages:focus,
 .name-logo:focus {
   color: #2196f3;
+}
+.a-subpages--active,
+.p-subpages--active,
+.k-subpages--active {
+  position: relative;
+}
+.a-subpages--active::after,
+.p-subpages--active::after,
+.k-subpages--active::after {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #2196f3;
+  border-radius: 2px;
+  content: "";
+  bottom: -33px;
+  left: 0px;
 }
 .top-box-contact {
   display: flex;
